@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link th:href="@{bootstrap.min.css}" rel="stylesheet"/>
+    <link th:href="@{bootstrap.theme.min.css}" rel="stylesheet"/>
+</head>
+<body>
+
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h3 class="panel-title">访问model</h3>
+    </div>
+    <div class="panel-body">
+        <!--/*@thymesVar id="singlePerson" type="dddd"*/-->
+        <span th:text="${singlePerson}"></span>
+    </div>
+</div>
+</body>
+</html>
