@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+<pattern>
+    <!--工厂模式-->
+    <factoryPattern>
+        <className>com.javadaily.factorypattern.factory.RectgleFactory</className>
+    </factoryPattern>
+</pattern>
