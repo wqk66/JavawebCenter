@@ -6,8 +6,8 @@ package com.javadaily.singletonpattern.hungrypattern;
 public class Singleton {
 
     public int count = 0;
-    private Singleton() {
-
+    private  Singleton() {
+        System.out.println(111111);
     }
 
     private final static Singleton instance = new Singleton();

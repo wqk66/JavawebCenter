@@ -4,6 +4,9 @@ import com.javadaily.iteratorpattern.factory.AbstractIterator;
 
 import java.util.List;
 
+/**
+ * 具体迭代器
+ */
 public class ProductIterator implements AbstractIterator {
 
     private ProductList productList;
@@ -11,6 +14,10 @@ public class ProductIterator implements AbstractIterator {
     private int cursor1;
     private int cursor2;
 
+    /**
+     * 构造函数，用于初始化数据，并为具体聚合对象赋值
+     * @param productList
+     */
     public ProductIterator(ProductList productList) {
         this.productList = productList;
         this.products = productList.getObjects();//获取聚合对象

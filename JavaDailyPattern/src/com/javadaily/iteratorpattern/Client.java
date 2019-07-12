@@ -22,11 +22,11 @@ public class Client {
         AbstractIterator iterator;
         list = new ProductList(products);
         iterator = list.createIterator();
-        list.removeObject("倚天剑");
         System.out.println("正向遍历：");
         while (!iterator.isLast()) {
             System.out.println(iterator.getNextItem()+",");
             iterator.next();
+
         }
         System.out.println();
         System.out.println("--------------------");
@@ -34,9 +34,7 @@ public class Client {
         while (!iterator.isFirst()) {
             System.out.println(iterator.getPreviousItem()+",");
             iterator.previous();
-
         }
-
 
     }
 }
