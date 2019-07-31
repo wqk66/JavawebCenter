@@ -4,13 +4,12 @@ import com.javadaily.bean.Result;
 import com.javadaily.bean.User;
 import com.javadaily.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.stereotype.Service;
 
 @Service
 public class UserService {
 
-    @Autowired
+    @Autowired(required = false)
     public UserMapper userMapper;
 
     /**

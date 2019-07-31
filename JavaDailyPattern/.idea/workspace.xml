@@ -5,49 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b47ea6ea-4d89-4bc1-888f-9ab39b716f6d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javadaily/facadepattern/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javadaily/facadepattern/facade/AbstractFacade.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javadaily/facadepattern/facade/FacadeOperate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javadaily/facadepattern/subsys/FileEncypt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javadaily/facadepattern/subsys/FileReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javadaily/facadepattern/subsys/FileWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javadaily/singletonpattern/hungrypattern/A.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javadaily/singletonpattern/multipattern/Multiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javadaily/singletonpattern/multipattern/startMain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javadaily/yunsuan/SortUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loginandregister/src/main/java/com/javadaily/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loginandregister/src/main/java/com/javadaily/bean/User.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loginandregister/src/main/resources/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HN_Modify_FIleName/out/production/HN_Modify_FIleName/com/tsingsoft/service/FileServiceImp.class" afterPath="$PROJECT_DIR$/../HN_Modify_FIleName/out/production/HN_Modify_FIleName/com/tsingsoft/service/FileServiceImp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HN_Modify_FIleName/out/production/HN_Modify_FIleName/com/tsingsoft/util/DateUtil.class" afterPath="$PROJECT_DIR$/../HN_Modify_FIleName/out/production/HN_Modify_FIleName/com/tsingsoft/util/DateUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaDailyPattern/com/javadaily/encrypt/md5/MD5utils.class" afterPath="$PROJECT_DIR$/out/production/JavaDailyPattern/com/javadaily/encrypt/md5/MD5utils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaDailyPattern/com/javadaily/iteratorpattern/Client.class" afterPath="$PROJECT_DIR$/out/production/JavaDailyPattern/com/javadaily/iteratorpattern/Client.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaDailyPattern/com/javadaily/iteratorpattern/Test.class" afterPath="$PROJECT_DIR$/out/production/JavaDailyPattern/com/javadaily/iteratorpattern/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaDailyPattern/com/javadaily/iteratorpattern/factory/AbstractObjectList.class" afterPath="$PROJECT_DIR$/out/production/JavaDailyPattern/com/javadaily/iteratorpattern/factory/AbstractObjectList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaDailyPattern/com/javadaily/iteratorpattern/instanceimpl/ProductIterator.class" afterPath="$PROJECT_DIR$/out/production/JavaDailyPattern/com/javadaily/iteratorpattern/instanceimpl/ProductIterator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaDailyPattern/com/javadaily/iteratorpattern/instanceimpl/ProductList.class" afterPath="$PROJECT_DIR$/out/production/JavaDailyPattern/com/javadaily/iteratorpattern/instanceimpl/ProductList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaDailyPattern/com/javadaily/singletonpattern/hungrypattern/Singleton.class" afterPath="$PROJECT_DIR$/out/production/JavaDailyPattern/com/javadaily/singletonpattern/hungrypattern/Singleton.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaDailyPattern/com/javadaily/singletonpattern/hungrypattern/Test.class" afterPath="$PROJECT_DIR$/out/production/JavaDailyPattern/com/javadaily/singletonpattern/hungrypattern/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaDailyPattern/com/javadaily/singletonpattern/innerclasspattern/Singleton.class" afterPath="$PROJECT_DIR$/out/production/JavaDailyPattern/com/javadaily/singletonpattern/innerclasspattern/Singleton.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaDailyPattern/com/javadaily/singletonpattern/startMain.class" afterPath="$PROJECT_DIR$/out/production/JavaDailyPattern/com/javadaily/singletonpattern/startMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HN_Modify_FIleName/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HN_Modify_FIleName/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HN_Modify_FIleName/src/com/tsingsoft/util/DateUtil.java" afterPath="$PROJECT_DIR$/../HN_Modify_FIleName/src/com/tsingsoft/util/DateUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/javadaily/iteratorpattern/Client.java" afterPath="$PROJECT_DIR$/src/com/javadaily/iteratorpattern/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/javadaily/iteratorpattern/Test.java" afterPath="$PROJECT_DIR$/src/com/javadaily/iteratorpattern/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/javadaily/iteratorpattern/factory/AbstractObjectList.java" afterPath="$PROJECT_DIR$/src/com/javadaily/iteratorpattern/factory/AbstractObjectList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/javadaily/iteratorpattern/instanceimpl/ProductIterator.java" afterPath="$PROJECT_DIR$/src/com/javadaily/iteratorpattern/instanceimpl/ProductIterator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/javadaily/iteratorpattern/instanceimpl/ProductList.java" afterPath="$PROJECT_DIR$/src/com/javadaily/iteratorpattern/instanceimpl/ProductList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/javadaily/singletonpattern/hungrypattern/Singleton.java" afterPath="$PROJECT_DIR$/src/com/javadaily/singletonpattern/hungrypattern/Singleton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/javadaily/singletonpattern/hungrypattern/Test.java" afterPath="$PROJECT_DIR$/src/com/javadaily/singletonpattern/hungrypattern/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/javadaily/singletonpattern/innerclasspattern/Singleton.java" afterPath="$PROJECT_DIR$/src/com/javadaily/singletonpattern/innerclasspattern/Singleton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/javadaily/singletonpattern/startMain.java" afterPath="$PROJECT_DIR$/src/com/javadaily/singletonpattern/startMain.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../loginandregister/pom.xml" afterPath="$PROJECT_DIR$/../loginandregister/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../loginandregister/src/main/java/com/javadaily/LoginandregisterApplication.java" afterPath="$PROJECT_DIR$/../loginandregister/src/main/java/com/javadaily/LoginandregisterApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../loginandregister/src/main/java/com/javadaily/Test.java" afterPath="$PROJECT_DIR$/../loginandregister/src/main/java/com/javadaily/Test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../loginandregister/src/main/java/com/javadaily/bean/User.java" afterPath="$PROJECT_DIR$/../loginandregister/src/main/java/com/javadaily/bean/User.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../loginandregister/src/main/java/com/javadaily/mapper/UserMapper.java" afterPath="$PROJECT_DIR$/../loginandregister/src/main/java/com/javadaily/mapper/UserMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../loginandregister/src/main/java/com/javadaily/service/UserService.java" afterPath="$PROJECT_DIR$/../loginandregister/src/main/java/com/javadaily/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../loginandregister/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/../loginandregister/src/main/resources/hibernate.cfg.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../loginandregister/src/main/resources/templates/register.html" afterPath="$PROJECT_DIR$/../loginandregister/src/main/resources/templates/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../simple-sso-master/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../simple-sso-master/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -147,14 +114,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortUtil.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SortUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/javadaily/yunsuan/SortUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
+            <state relative-caret-position="936">
               <caret line="27" column="46" lean-forward="false" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MD5utils.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/javadaily/encrypt/md5/MD5utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -296,6 +273,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -325,6 +303,21 @@
               <item name="JavaDailyPattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="javadaily" type="462c0819:PsiDirectoryNode" />
+              <item name="encrypt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaDailyPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDailyPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="javadaily" type="462c0819:PsiDirectoryNode" />
+              <item name="encrypt" type="462c0819:PsiDirectoryNode" />
+              <item name="md5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaDailyPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDailyPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="javadaily" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -340,7 +333,6 @@
       </pane>
       <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -599,11 +591,13 @@
       <workItem from="1562116836682" duration="15000" />
       <workItem from="1562121724144" duration="8111000" />
       <workItem from="1562422747244" duration="23000" />
+      <workItem from="1561042951986" duration="467000" />
+      <workItem from="1561047730448" duration="733000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101218000" />
+    <option name="totallyTimeSpent" value="102418000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -618,19 +612,20 @@
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3210024" sideWeight="0.50215983" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55292654" sideWeight="0.49784017" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5267746" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12904967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3412527" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -644,7 +639,6 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59028643" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23326133" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -795,13 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/javadaily/encrypt/md5/MD5utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1047,11 +1034,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/javadaily/yunsuan/SortUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
+        <state relative-caret-position="936">
           <caret line="27" column="46" lean-forward="false" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javadaily/encrypt/md5/MD5utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
