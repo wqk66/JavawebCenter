@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hrm.mapper.StudentMapper">
+	
+	<resultMap type="com.hrm.domain.Student" id="studentResultMap">
+		<id property="id" column="id"/>
+		<result property="name" column="name"/>
+		<result property="sex" column="sex"/>
+		<result property="age" column="age"/>
+		<association property="clazz" column="clazz_id" javaType="clazz" select="selectClazzWithId" />
+	</resultMap>
+	<select id="selectClazzWithId" resultType="com.hrm.domain.Clazz">
+		select * from tb_clazz where id = #{id}
+	</select>
+	<select id="selectStudent" resultMap="studentResultMap">
+		select * from tb_student
+	</select>
+	
+<!-- 	结果集嵌套 -->
+	<resultMap type="com.hrm.domain.Student" id="studentResultMap2">
+		<id property="id" column="id"/>
+		<result property="name" column="name"/>
+		<result property="sex" column="sex"/>
+		<result property="age" column="age"/>
+		<association property="clazz" javaType="com.hrm.domain.Clazz">
+			<id property="id" column="id" />
+			<result property="code" column="code"/>
+		</association>
+	</resultMap>
+	
+	<select id="selectStudent2" resultMap="studentResultMap2" >
+		select t.*,tt.id,tt.code from tb_student t,tb_clazz tt where t.clazz_id = tt.id
+	</select>
+</mapper>

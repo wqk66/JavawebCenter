@@ -20,7 +20,7 @@ import com.hrm.domain.User;
 import com.hrm.service.UserService;
 
 /**
- * 描述：
+ * 描述：用户前端控制器
  * 
  * @author wqk
  * @since 2019年9月8日 上午1:44:21

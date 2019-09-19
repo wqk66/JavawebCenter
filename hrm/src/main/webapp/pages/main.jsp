@@ -25,7 +25,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		</tr>
 		<c:forEach items="#{book_list }" var="book">
 			<tr>
-				<td><img src="images/${book.image}" var></td>
+				<td><img src="images/${book.image}"></td>
 				<td>${book.name }</td>
 				<td>${book.author}</td>
 				<td>${book.price}</td>

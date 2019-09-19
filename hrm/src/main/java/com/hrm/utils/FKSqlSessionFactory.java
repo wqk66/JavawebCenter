@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.session.Configuration;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
@@ -27,7 +28,8 @@ public class FKSqlSessionFactory {
 		
 		InputStream inputStream;
 		try {
-			inputStream = Resources.getResourceAsStream("mappers/UserMapper.xml");
+			
+			inputStream = Resources.getResourceAsStream("mybatis-config.xml");
 			sessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -42,5 +44,9 @@ public class FKSqlSessionFactory {
 	//获取sqlsessionfactory的静态方法
 	public static SqlSessionFactory getSqlSessionFactory() {
 		return sessionFactory;
+	}
+	
+	public static void main(String[] args) {
+		System.out.println(sessionFactory);
 	}
 }

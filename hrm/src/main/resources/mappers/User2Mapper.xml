@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hrm.mapper.User2Mapper">
+
+	<insert id="saveUser" parameterType="com.hrm.domain.User2"
+		useGeneratedKeys="true">
+		insert into
+		tb_user2(name,sex,age)
+		values(#{name},#{sex},#{age})
+	</insert>
+
+	<select id="selectUser" parameterType="int" resultType="user2">
+		select *
+		from tb_user2 where id = #{id}
+	</select>
+
+	<update id="modifyUser" parameterType="user2">
+		update tb_user2 set
+		name=#{name},sex=#{sex},age=#{age} where
+		id=#{id}
+	</update>
+
+	<delete id="removeUser" parameterType="int">
+		delete from tb_user2 where
+		id=#{id}
+	</delete>
+	
+<!-- 	演示resultMaps -->
+	<select id="resultMap" resultType="user2" >
+		select * from tb_user2
+	</select>
+
+	<resultMap type="user2" id="resultMap2">
+		<id property="id" column="user_id"/>
+		<result property="name" column="user_name"/>
+		<result property="sex" column="user_sex"/>
+		<result property="age" column="user_age"/>
+	</resultMap>
+	
+	<select id="selectMap" resultMap="resultMap2">
+		select * from tb_user3
+	</select>
+</mapper>

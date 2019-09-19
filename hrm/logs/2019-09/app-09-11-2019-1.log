@@ -1,0 +1,208 @@
+2019-09-11 16:33:24.893 [restartedMain] [StartupInfoLogger.java:50] INFO  com.hrm.HrmApplication - Starting HrmApplication on DESKTOP-FQS7C7E with PID 25724 (E:\gitworkspace\hrm\target\classes started by tsingsoft in E:\gitworkspace\hrm) 
+2019-09-11 16:33:24.898 [restartedMain] [SpringApplication.java:675] INFO  com.hrm.HrmApplication - No active profile set, falling back to default profiles: default 
+2019-09-11 16:33:24.944 [restartedMain] [DeferredLog.java:227] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2019-09-11 16:33:24.944 [restartedMain] [DeferredLog.java:227] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2019-09-11 16:33:26.396 [restartedMain] [TomcatWebServer.java:90] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http) 
+2019-09-11 16:33:26.411 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"] 
+2019-09-11 16:33:26.423 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2019-09-11 16:33:26.423 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19] 
+2019-09-11 16:33:26.780 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2019-09-11 16:33:26.792 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2019-09-11 16:33:26.792 [restartedMain] [ServletWebServerApplicationContext.java:296] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1847 ms 
+2019-09-11 16:33:26.962 [restartedMain] [DruidDataSourceAutoConfigure.java:56] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource 
+2019-09-11 16:33:27.071 [restartedMain] [DruidDataSource.java:1003] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited 
+2019-09-11 16:33:27.284 [restartedMain] [ExecutorConfigurationSupport.java:171] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-11 16:33:27.533 [restartedMain] [OptionalLiveReloadServer.java:57] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2019-09-11 16:33:27.565 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"] 
+2019-09-11 16:33:27.619 [restartedMain] [TomcatWebServer.java:204] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '' 
+2019-09-11 16:33:27.622 [restartedMain] [StartupInfoLogger.java:59] INFO  com.hrm.HrmApplication - Started HrmApplication in 3.08 seconds (JVM running for 3.748) 
+2019-09-11 16:35:50.428 [restartedMain] [StartupInfoLogger.java:50] INFO  com.hrm.HrmApplication - Starting HrmApplication on DESKTOP-FQS7C7E with PID 27052 (E:\gitworkspace\hrm\target\classes started by tsingsoft in E:\gitworkspace\hrm) 
+2019-09-11 16:35:50.433 [restartedMain] [SpringApplication.java:675] INFO  com.hrm.HrmApplication - No active profile set, falling back to default profiles: default 
+2019-09-11 16:35:50.499 [restartedMain] [DeferredLog.java:227] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2019-09-11 16:35:50.500 [restartedMain] [DeferredLog.java:227] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2019-09-11 16:35:52.123 [restartedMain] [TomcatWebServer.java:90] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http) 
+2019-09-11 16:35:52.143 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"] 
+2019-09-11 16:35:52.151 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2019-09-11 16:35:52.152 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19] 
+2019-09-11 16:35:52.465 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2019-09-11 16:35:52.471 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2019-09-11 16:35:52.471 [restartedMain] [ServletWebServerApplicationContext.java:296] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1971 ms 
+2019-09-11 16:35:52.594 [restartedMain] [DruidDataSourceAutoConfigure.java:56] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource 
+2019-09-11 16:35:52.720 [restartedMain] [DruidDataSource.java:1003] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited 
+2019-09-11 16:35:53.002 [restartedMain] [ExecutorConfigurationSupport.java:171] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-11 16:35:53.276 [restartedMain] [OptionalLiveReloadServer.java:57] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2019-09-11 16:35:53.304 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"] 
+2019-09-11 16:35:53.339 [restartedMain] [TomcatWebServer.java:204] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '' 
+2019-09-11 16:35:53.343 [restartedMain] [StartupInfoLogger.java:59] INFO  com.hrm.HrmApplication - Started HrmApplication in 3.191 seconds (JVM running for 3.948) 
+2019-09-11 16:36:22.090 [Thread-6] [ExecutorConfigurationSupport.java:208] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-09-11 16:36:22.091 [Thread-6] [DruidDataSource.java:1965] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ... 
+2019-09-11 16:36:22.093 [Thread-6] [DruidDataSource.java:2037] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed 
+2019-09-11 16:36:22.492 [restartedMain] [StartupInfoLogger.java:50] INFO  com.hrm.HrmApplication - Starting HrmApplication on DESKTOP-FQS7C7E with PID 27052 (E:\gitworkspace\hrm\target\classes started by tsingsoft in E:\gitworkspace\hrm) 
+2019-09-11 16:36:22.493 [restartedMain] [SpringApplication.java:675] INFO  com.hrm.HrmApplication - No active profile set, falling back to default profiles: default 
+2019-09-11 16:36:22.817 [restartedMain] [TomcatWebServer.java:90] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http) 
+2019-09-11 16:36:22.818 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"] 
+2019-09-11 16:36:22.819 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2019-09-11 16:36:22.819 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19] 
+2019-09-11 16:36:22.908 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2019-09-11 16:36:22.911 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2019-09-11 16:36:22.912 [restartedMain] [ServletWebServerApplicationContext.java:296] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 417 ms 
+2019-09-11 16:36:22.944 [restartedMain] [DruidDataSourceAutoConfigure.java:56] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource 
+2019-09-11 16:36:22.960 [restartedMain] [DruidDataSource.java:1003] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited 
+2019-09-11 16:36:23.052 [restartedMain] [ExecutorConfigurationSupport.java:171] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-11 16:36:23.113 [restartedMain] [OptionalLiveReloadServer.java:57] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2019-09-11 16:36:23.128 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"] 
+2019-09-11 16:36:23.134 [restartedMain] [TomcatWebServer.java:204] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path '' 
+2019-09-11 16:36:23.135 [restartedMain] [StartupInfoLogger.java:59] INFO  com.hrm.HrmApplication - Started HrmApplication in 0.674 seconds (JVM running for 33.74) 
+2019-09-11 16:36:23.137 [restartedMain] [ConditionEvaluationDeltaLoggingListener.java:70] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2019-09-11 16:36:34.401 [http-nio-8888-exec-1] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-09-11 16:36:34.401 [http-nio-8888-exec-1] [FrameworkServlet.java:524] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2019-09-11 16:36:34.409 [http-nio-8888-exec-1] [FrameworkServlet.java:546] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms 
+2019-09-11 16:50:01.278 [restartedMain] [StartupInfoLogger.java:50] INFO  com.hrm.HrmApplication - Starting HrmApplication on DESKTOP-FQS7C7E with PID 25352 (E:\gitworkspace\hrm\target\classes started by tsingsoft in E:\gitworkspace\hrm) 
+2019-09-11 16:50:01.283 [restartedMain] [SpringApplication.java:675] INFO  com.hrm.HrmApplication - No active profile set, falling back to default profiles: default 
+2019-09-11 16:50:01.351 [restartedMain] [DeferredLog.java:227] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2019-09-11 16:50:01.351 [restartedMain] [DeferredLog.java:227] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2019-09-11 16:50:02.791 [restartedMain] [TomcatWebServer.java:90] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http) 
+2019-09-11 16:50:02.807 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"] 
+2019-09-11 16:50:02.819 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2019-09-11 16:50:02.820 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19] 
+2019-09-11 16:50:03.118 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2019-09-11 16:50:03.124 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2019-09-11 16:50:03.124 [restartedMain] [ServletWebServerApplicationContext.java:296] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1771 ms 
+2019-09-11 16:50:03.243 [restartedMain] [DruidDataSourceAutoConfigure.java:56] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource 
+2019-09-11 16:50:03.371 [restartedMain] [DruidDataSource.java:1003] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited 
+2019-09-11 16:50:03.660 [restartedMain] [ExecutorConfigurationSupport.java:171] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-11 16:50:03.907 [restartedMain] [OptionalLiveReloadServer.java:57] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2019-09-11 16:50:03.934 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"] 
+2019-09-11 16:50:03.976 [restartedMain] [TomcatWebServer.java:204] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path '' 
+2019-09-11 16:50:03.980 [restartedMain] [StartupInfoLogger.java:59] INFO  com.hrm.HrmApplication - Started HrmApplication in 2.955 seconds (JVM running for 3.718) 
+2019-09-11 16:50:14.501 [http-nio-8888-exec-2] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-09-11 16:50:14.501 [http-nio-8888-exec-2] [FrameworkServlet.java:524] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2019-09-11 16:50:14.509 [http-nio-8888-exec-2] [FrameworkServlet.java:546] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms 
+2019-09-11 16:50:48.828 [Thread-6] [ExecutorConfigurationSupport.java:208] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-09-11 16:50:48.829 [Thread-6] [DruidDataSource.java:1965] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ... 
+2019-09-11 16:50:48.830 [Thread-6] [DruidDataSource.java:2037] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed 
+2019-09-11 16:50:49.234 [restartedMain] [StartupInfoLogger.java:50] INFO  com.hrm.HrmApplication - Starting HrmApplication on DESKTOP-FQS7C7E with PID 25352 (E:\gitworkspace\hrm\target\classes started by tsingsoft in E:\gitworkspace\hrm) 
+2019-09-11 16:50:49.234 [restartedMain] [SpringApplication.java:675] INFO  com.hrm.HrmApplication - No active profile set, falling back to default profiles: default 
+2019-09-11 16:50:49.614 [restartedMain] [TomcatWebServer.java:90] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http) 
+2019-09-11 16:50:49.615 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"] 
+2019-09-11 16:50:49.615 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2019-09-11 16:50:49.616 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19] 
+2019-09-11 16:50:49.736 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2019-09-11 16:50:49.741 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2019-09-11 16:50:49.741 [restartedMain] [ServletWebServerApplicationContext.java:296] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 505 ms 
+2019-09-11 16:50:49.775 [restartedMain] [DruidDataSourceAutoConfigure.java:56] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource 
+2019-09-11 16:50:49.789 [restartedMain] [DruidDataSource.java:1003] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited 
+2019-09-11 16:50:49.928 [restartedMain] [ExecutorConfigurationSupport.java:171] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-11 16:50:50.002 [restartedMain] [OptionalLiveReloadServer.java:57] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2019-09-11 16:50:50.018 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"] 
+2019-09-11 16:50:50.025 [restartedMain] [TomcatWebServer.java:204] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path '' 
+2019-09-11 16:50:50.026 [restartedMain] [StartupInfoLogger.java:59] INFO  com.hrm.HrmApplication - Started HrmApplication in 0.832 seconds (JVM running for 49.765) 
+2019-09-11 16:50:50.028 [restartedMain] [ConditionEvaluationDeltaLoggingListener.java:70] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2019-09-11 16:50:50.064 [http-nio-8888-exec-3] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-09-11 16:50:50.065 [http-nio-8888-exec-3] [FrameworkServlet.java:524] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2019-09-11 16:50:50.072 [http-nio-8888-exec-3] [FrameworkServlet.java:546] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms 
+2019-09-11 17:09:31.852 [restartedMain] [StartupInfoLogger.java:50] INFO  com.hrm.HrmApplication - Starting HrmApplication on DESKTOP-FQS7C7E with PID 20132 (E:\gitworkspace\JavawebCenter\hrm\target\classes started by tsingsoft in E:\gitworkspace\JavawebCenter\hrm) 
+2019-09-11 17:09:31.857 [restartedMain] [SpringApplication.java:675] INFO  com.hrm.HrmApplication - No active profile set, falling back to default profiles: default 
+2019-09-11 17:09:31.921 [restartedMain] [DeferredLog.java:227] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2019-09-11 17:09:31.921 [restartedMain] [DeferredLog.java:227] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2019-09-11 17:09:33.392 [restartedMain] [TomcatWebServer.java:90] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http) 
+2019-09-11 17:09:33.410 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"] 
+2019-09-11 17:09:33.423 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2019-09-11 17:09:33.424 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19] 
+2019-09-11 17:09:33.729 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2019-09-11 17:09:33.735 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2019-09-11 17:09:33.735 [restartedMain] [ServletWebServerApplicationContext.java:296] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1813 ms 
+2019-09-11 17:09:33.857 [restartedMain] [DruidDataSourceAutoConfigure.java:56] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource 
+2019-09-11 17:09:33.977 [restartedMain] [DruidDataSource.java:1003] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited 
+2019-09-11 17:09:34.231 [restartedMain] [ExecutorConfigurationSupport.java:171] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-11 17:09:34.479 [restartedMain] [OptionalLiveReloadServer.java:57] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2019-09-11 17:09:34.506 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"] 
+2019-09-11 17:09:34.540 [restartedMain] [TomcatWebServer.java:204] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path '' 
+2019-09-11 17:09:34.545 [restartedMain] [StartupInfoLogger.java:59] INFO  com.hrm.HrmApplication - Started HrmApplication in 2.971 seconds (JVM running for 3.711) 
+2019-09-11 17:09:39.786 [http-nio-8888-exec-2] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-09-11 17:09:39.787 [http-nio-8888-exec-2] [FrameworkServlet.java:524] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2019-09-11 17:09:39.794 [http-nio-8888-exec-2] [FrameworkServlet.java:546] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms 
+2019-09-11 17:13:23.188 [restartedMain] [StartupInfoLogger.java:50] INFO  com.hrm.HrmApplication - Starting HrmApplication on DESKTOP-FQS7C7E with PID 27692 (E:\gitworkspace\JavawebCenter\hrm\target\classes started by tsingsoft in E:\gitworkspace\JavawebCenter\hrm) 
+2019-09-11 17:13:23.192 [restartedMain] [SpringApplication.java:675] INFO  com.hrm.HrmApplication - No active profile set, falling back to default profiles: default 
+2019-09-11 17:13:23.268 [restartedMain] [DeferredLog.java:227] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2019-09-11 17:13:23.269 [restartedMain] [DeferredLog.java:227] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2019-09-11 17:13:24.700 [restartedMain] [TomcatWebServer.java:90] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http) 
+2019-09-11 17:13:24.713 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"] 
+2019-09-11 17:13:24.722 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2019-09-11 17:13:24.723 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19] 
+2019-09-11 17:13:25.014 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2019-09-11 17:13:25.020 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2019-09-11 17:13:25.020 [restartedMain] [ServletWebServerApplicationContext.java:296] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1751 ms 
+2019-09-11 17:13:25.137 [restartedMain] [DruidDataSourceAutoConfigure.java:56] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource 
+2019-09-11 17:13:25.254 [restartedMain] [DruidDataSource.java:1003] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited 
+2019-09-11 17:13:25.511 [restartedMain] [ExecutorConfigurationSupport.java:171] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-11 17:13:25.767 [restartedMain] [OptionalLiveReloadServer.java:57] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2019-09-11 17:13:25.798 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"] 
+2019-09-11 17:13:25.832 [restartedMain] [TomcatWebServer.java:204] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path '' 
+2019-09-11 17:13:25.835 [restartedMain] [StartupInfoLogger.java:59] INFO  com.hrm.HrmApplication - Started HrmApplication in 2.898 seconds (JVM running for 3.63) 
+2019-09-11 17:13:31.889 [http-nio-8888-exec-1] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-09-11 17:13:31.890 [http-nio-8888-exec-1] [FrameworkServlet.java:524] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2019-09-11 17:13:31.895 [http-nio-8888-exec-1] [FrameworkServlet.java:546] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms 
+2019-09-11 17:13:59.611 [Thread-6] [ExecutorConfigurationSupport.java:208] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-09-11 17:13:59.612 [Thread-6] [DruidDataSource.java:1965] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ... 
+2019-09-11 17:13:59.619 [Thread-6] [DruidDataSource.java:2037] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed 
+2019-09-11 17:14:00.045 [restartedMain] [StartupInfoLogger.java:50] INFO  com.hrm.HrmApplication - Starting HrmApplication on DESKTOP-FQS7C7E with PID 27692 (E:\gitworkspace\JavawebCenter\hrm\target\classes started by tsingsoft in E:\gitworkspace\JavawebCenter\hrm) 
+2019-09-11 17:14:00.045 [restartedMain] [SpringApplication.java:675] INFO  com.hrm.HrmApplication - No active profile set, falling back to default profiles: default 
+2019-09-11 17:14:00.403 [restartedMain] [TomcatWebServer.java:90] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http) 
+2019-09-11 17:14:00.403 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"] 
+2019-09-11 17:14:00.404 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2019-09-11 17:14:00.404 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19] 
+2019-09-11 17:14:00.510 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2019-09-11 17:14:00.514 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2019-09-11 17:14:00.515 [restartedMain] [ServletWebServerApplicationContext.java:296] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 467 ms 
+2019-09-11 17:14:00.568 [restartedMain] [DruidDataSourceAutoConfigure.java:56] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource 
+2019-09-11 17:14:00.585 [restartedMain] [DruidDataSource.java:1003] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited 
+2019-09-11 17:14:00.681 [restartedMain] [ExecutorConfigurationSupport.java:171] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-11 17:14:00.742 [restartedMain] [OptionalLiveReloadServer.java:57] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2019-09-11 17:14:00.751 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"] 
+2019-09-11 17:14:00.757 [restartedMain] [TomcatWebServer.java:204] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path '' 
+2019-09-11 17:14:00.758 [restartedMain] [StartupInfoLogger.java:59] INFO  com.hrm.HrmApplication - Started HrmApplication in 0.766 seconds (JVM running for 38.554) 
+2019-09-11 17:14:00.760 [restartedMain] [ConditionEvaluationDeltaLoggingListener.java:70] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2019-09-11 17:16:21.687 [http-nio-8888-exec-1] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-09-11 17:16:21.688 [http-nio-8888-exec-1] [FrameworkServlet.java:524] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2019-09-11 17:16:21.697 [http-nio-8888-exec-1] [FrameworkServlet.java:546] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms 
+2019-09-11 17:19:15.001 [Thread-10] [ExecutorConfigurationSupport.java:208] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-09-11 17:19:15.002 [Thread-10] [DruidDataSource.java:1965] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ... 
+2019-09-11 17:19:15.004 [Thread-10] [DruidDataSource.java:2037] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed 
+2019-09-11 17:19:15.433 [restartedMain] [StartupInfoLogger.java:50] INFO  com.hrm.HrmApplication - Starting HrmApplication on DESKTOP-FQS7C7E with PID 27692 (E:\gitworkspace\JavawebCenter\hrm\target\classes started by tsingsoft in E:\gitworkspace\JavawebCenter\hrm) 
+2019-09-11 17:19:15.433 [restartedMain] [SpringApplication.java:675] INFO  com.hrm.HrmApplication - No active profile set, falling back to default profiles: default 
+2019-09-11 17:19:15.740 [restartedMain] [TomcatWebServer.java:90] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http) 
+2019-09-11 17:19:15.741 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"] 
+2019-09-11 17:19:15.742 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2019-09-11 17:19:15.742 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19] 
+2019-09-11 17:19:15.824 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2019-09-11 17:19:15.828 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2019-09-11 17:19:15.828 [restartedMain] [ServletWebServerApplicationContext.java:296] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 392 ms 
+2019-09-11 17:19:15.857 [restartedMain] [DruidDataSourceAutoConfigure.java:56] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource 
+2019-09-11 17:19:15.865 [restartedMain] [DruidDataSource.java:1003] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited 
+2019-09-11 17:19:15.934 [restartedMain] [ExecutorConfigurationSupport.java:171] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-11 17:19:15.989 [restartedMain] [OptionalLiveReloadServer.java:57] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2019-09-11 17:19:16.001 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"] 
+2019-09-11 17:19:16.009 [restartedMain] [TomcatWebServer.java:204] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path '' 
+2019-09-11 17:19:16.010 [restartedMain] [StartupInfoLogger.java:59] INFO  com.hrm.HrmApplication - Started HrmApplication in 0.629 seconds (JVM running for 353.805) 
+2019-09-11 17:19:16.011 [restartedMain] [ConditionEvaluationDeltaLoggingListener.java:70] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2019-09-11 17:44:41.807 [Thread-16] [ExecutorConfigurationSupport.java:208] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-09-11 17:44:41.808 [Thread-16] [DruidDataSource.java:1965] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closing ... 
+2019-09-11 17:44:41.808 [Thread-16] [DruidDataSource.java:2037] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed 
+2019-09-11 17:44:42.207 [restartedMain] [StartupInfoLogger.java:50] INFO  com.hrm.HrmApplication - Starting HrmApplication on DESKTOP-FQS7C7E with PID 27692 (E:\gitworkspace\JavawebCenter\hrm\target\classes started by tsingsoft in E:\gitworkspace\JavawebCenter\hrm) 
+2019-09-11 17:44:42.208 [restartedMain] [SpringApplication.java:675] INFO  com.hrm.HrmApplication - No active profile set, falling back to default profiles: default 
+2019-09-11 17:44:42.521 [restartedMain] [TomcatWebServer.java:90] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http) 
+2019-09-11 17:44:42.522 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"] 
+2019-09-11 17:44:42.522 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2019-09-11 17:44:42.523 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19] 
+2019-09-11 17:44:42.595 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2019-09-11 17:44:42.598 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2019-09-11 17:44:42.598 [restartedMain] [ServletWebServerApplicationContext.java:296] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 388 ms 
+2019-09-11 17:44:42.622 [restartedMain] [DruidDataSourceAutoConfigure.java:56] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource 
+2019-09-11 17:44:42.632 [restartedMain] [DruidDataSource.java:1003] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4} inited 
+2019-09-11 17:44:42.686 [restartedMain] [ExecutorConfigurationSupport.java:171] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-11 17:44:42.734 [restartedMain] [OptionalLiveReloadServer.java:57] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2019-09-11 17:44:42.744 [restartedMain] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"] 
+2019-09-11 17:44:42.750 [restartedMain] [TomcatWebServer.java:204] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path '' 
+2019-09-11 17:44:42.750 [restartedMain] [StartupInfoLogger.java:59] INFO  com.hrm.HrmApplication - Started HrmApplication in 0.583 seconds (JVM running for 1880.546) 
+2019-09-11 17:44:42.752 [restartedMain] [ConditionEvaluationDeltaLoggingListener.java:70] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
