@@ -43,22 +43,26 @@ public class PostionApplicationTest {
 		
 		//查询职位
 //		Position p = positionMapper.queryPositionTeacherResultMapById(1);
+//		List<Teacher> teachers = p.getTeachers();
 //		System.out.println(p.toString());
-		
-		//查询职位以及职位对应的老师
-//		Position position = positionMapper.queryPositionTeacherResultMap(1);
-//		System.out.println(position.getName());
-//		List<Teacher> teachers = position.getTeachers();
 //		for(Teacher t : teachers) {
-//			System.out.println(t.getName()+"--"+t.getNo());
+//			System.out.println(t.toString());
 //		}
 		
-//		Teacher teacher = positionMapper.queryPositionByTeacherID(1);
-//		System.out.println(teacher.toString());
+		//查询职位以及职位对应的老师
+		Position position = positionMapper.queryPositionTeacherResultMap(1);
+		System.out.println(position.getName());
+		List<Teacher> teachers = position.getTeachers();
+		for(Teacher t : teachers) {
+			System.out.println(t.getName()+"--"+t.getNo());
+		}
 		
-		List<Map<String, Object>> dataList = positionMapper.queryPotionByTeacherid("1");
+		Teacher teacher = positionMapper.queryPositionByTeacherID(1);
+		System.out.println(teacher.toString());
 		
-		System.out.println(dataList.toString());
+//		List<Map<String, Object>> dataList = positionMapper.queryPotionByTeacherid("1");
+//		
+//		System.out.println(dataList.toString());
 		
 	}
 }

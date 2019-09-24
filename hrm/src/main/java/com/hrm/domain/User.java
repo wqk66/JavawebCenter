@@ -18,8 +18,8 @@ public class User {
 	private String userName;
 	private String phone;
 	private String address;
-	
 	public User() {}
+	
 	public User(String loginName,String password,String userName) {
 		this.loginName = loginName;
 		this.password = password;
