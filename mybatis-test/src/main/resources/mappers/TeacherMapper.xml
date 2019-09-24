@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatistest.mapper.TeacherMapper">
+
+	<resultMap type="teacher" id="teacherStudentResultMap">
+		<id property="id" column="t_id"/>
+		<result property="name" column="t_name"/>
+		<result property="no" column="t_no"/>
+		<collection property="studentList" javaType="List" ofType="student">
+			<id property="id" column="s_id" />
+			<result property="name" column="t_stu_name"/>
+		</collection>
+	</resultMap>
+	
+
+	<select id="queryStudentByTeacherID2" resultMap="teacherStudentResultMap" parameterType="int">
+		select a.id as t_id,a.t_no,a.t_name,b.id as s_id,b.t_stu_name from t_teacher a,t_student b,t_stu_teach c
+		where a.id = c.t_teach_id and b.id = c.t_stu_id and a.id = #{id};
+	</select>
+	
+	
+<!-- 	根据学生id查询教师信息 -->
+	<resultMap type="student" id="studentTeacherResultMap">
+		<id property="id" column="s_id"/>
+		<result property="name" column="t_stu_name"/>
+		<collection property="teacherlist" javaType="List" ofType="teacher">
+			<id property="id" column="t_id"/>
+			<result property="name" column="t_name"/>
+			<result property="no" column="t_no"/>
+		</collection>
+	</resultMap>
+	<select id="queryteacherByStudentId" resultMap="studentTeacherResultMap" parameterType="int">
+		select a.id as t_id,a.t_no,a.t_name,b.id as s_id,b.t_stu_name from t_teacher a,t_student b,t_stu_teach c
+		where a.id = c.t_teach_id and b.id = c.t_stu_id and b.id = #{id}
+	</select>
+	
+	
+	
+<!-- 	返回类型为map的教师和学生信息，多对多关系 -->
+	<select id="queryStudentByTeacherID" parameterType="int" resultType="map">
+		select a.id as t_id,a.t_no,a.t_name,b.s_id,b.t_stu_name from t_teacher a,t_student b,t_stu_teach c
+		where a.id = c.t_teach_id and b.id = c.t_stu_id and a.id = #{id};
+	</select>
+	
+<!-- 	插入教师信息 -->
+	<insert id="insertTeacher" parameterType="teacher" flushCache="true" useGeneratedKeys="true">
+		insert into t_teacher(t_no,t_name,position_id) values(#{no},#{name},#{position.id})
+	</insert>
+	
+<!-- 	更新教师信息 -->
+	<update id="updateTeacher" parameterType="teacher" flushCache="true">
+		update t_teacher set t_no=#{no},t_name=#{name} where id = #{id}
+	</update>
+	
+<!-- 	删除教师信息 -->
+	<delete id="deleteTeacher" parameterType="int" flushCache="true">
+		delete from t_teacher where id = #{id}
+	</delete>
+	
+</mapper>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatistest.mapper.PositionMapper">
+	
+	<resultMap type="com.mybatistest.domain.Position" id="positionTeacherResultMap">
+		<id property="id" column="id"/>
+		<result property="name" column="t_pos_name"/>
+		<collection property="teachers" javaType="List" ofType="com.mybatistest.domain.Teacher">
+			<id property="id" column="t_id"/>
+			<result property="no" column="t_no"/>
+			<result property="name" column="t_name"/>
+			
+		</collection>
+	</resultMap>
+	
+	<resultMap type="com.mybatistest.domain.Teacher" id="teacherToPositionResultMap">
+		<id property="id" column="t_id"/>
+		<result property="name" column="t_name"/>
+		<result property="no" column="t_no"/>
+		<association property="position" javaType="Position">
+			<id property="id" column="p_id"/>
+			<result property="name" column="p_name"/>
+		</association>
+	</resultMap>
+	
+<!-- 	根据教师id查询职位，教师对职位，一对一的关系 -->
+	<select id="queryPositionByTeacherID" resultMap="teacherToPositionResultMap" parameterType="int">
+		select t.id as t_id,t.t_name,t.t_no,tt.id as p_id, tt.t_pos_name as p_name from t_teacher t,t_position tt
+		where t.position_id = tt.id and t.id = #{id}
+	</select>
+	
+	<select id="queryPositionTeacherResultMapById" resultMap="positionTeacherResultMap" 
+		parameterType="Integer">
+		select * from t_position where id = #{id}
+	</select>
+<!-- 	根据职位id查询教师 -->
+	<select id="queryTeacherByid" resultMap="positionTeacherResultMap" parameterType="int">
+		select * from t_teacher where position_id = #{id}
+	</select>
+<!-- 	职位对老师，一对多的关系 -->
+	<select id="queryPositionTeacherResultMap" resultMap="positionTeacherResultMap" parameterType="int">
+		
+		SELECT 
+		p.*, 
+		t.id t_id,
+		t.t_name,
+		t.t_no
+		FROM t_position p
+		LEFT JOIN t_teacher t
+		ON p.id = t.position_id where p.id = #{id}
+	</select>
+<!-- 	根据id查询职位 -->
+	<select id="queryPositionById" parameterType="int" resultType="com.mybatistest.domain.Position">
+		select * from t_position where id = #{id}
+	</select>
+	
+<!-- 	根据教师id查询职位，一对多关系，返回map类型 -->
+	<select id="queryPotionByTeacherid" parameterType="java.lang.String" resultType="Map">
+		SELECT 
+		p.*, 
+		t.id t_id,
+		t.t_name,
+		t.t_no
+		FROM t_position p
+		LEFT JOIN t_teacher t
+		ON p.id = t.position_id where p.id = #{id}
+	</select>
+	
+</mapper>
