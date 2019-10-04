@@ -33,8 +33,6 @@ public class ApplicationMybatisTest {
 		user.setLoginName("aaa");
 		user.setPassword("111111");
 		user.setUserName("bbbbb");
-		user.setPhone("111111");
-		user.setAddress("bbbb");
 		userMapper.registerUser(user);
 	}
 }

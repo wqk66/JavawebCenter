@@ -1,0 +1,204 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+	<TITLE>查询用户</TITLE>
+	<META http-equiv=Content-Type content="text/html; charset=utf-8">
+	<META content="MSHTML 6.00.2900.3492" name=GENERATOR>
+</HEAD>
+<LINK href="/statics/css/Style.css" type=text/css rel=stylesheet>
+<LINK href="/statics/css/Manage.css" type=text/css rel=stylesheet>
+<SCRIPT type="text/javascript" src="/statics/js/jquery-3.3.1.min.js"></SCRIPT>
+<script type="text/javascript">
+	$(function(){
+		$("#tbody").empty();
+		$("#tbody").append('<tr style="FONT-WEIGHT: bold; FONT-STYLE: normal; BACKGROUND-COLOR: #eeeeee; TEXT-DECORATION: none">')
+		.append('<td>姓 名</td>')
+		.append('<td>昵 称</td>')
+		.append('<td>职 位</td>')
+		.append('<td>性 别</td>')
+		.append('<td>入职日期</td>')
+		.append('<td>出生日期</td>')
+		.append('<td>详 细</td>')
+		.append('</tr>')
+		for(var i=0;i<4;i++){
+			$("#tbody").append('<tr style=\'FONT-WEIGHT: normal; FONT-STYLE: normal; BACKGROUND-COLOR: red; TEXT-DECORATION: none\'>')
+			.append('<td>longlikai1</td>')
+			.append('<td>aa</td>')
+			.append('<td>职位1</td>')
+			.append('<td>男</td>')
+			.append('<td>2019-01-01</td>')
+			.append('<td>2010-01-01</td>')
+			.append('<td><A href="#">查看</A></td>')
+			.append('</tr>')
+		}
+		
+	});
+</script>
+
+  <BODY>
+	<FORM id=form1 name=form1 action="" method="post">
+	<TABLE cellSpacing=0 cellPadding=0 width="98%" border=0>
+  	<TBODY>
+  <TR>
+    <TD width=15><IMG src="/statics/images/hrmContent/new_019.jpg" border=0></TD>
+    <TD width="100%" background=/statics/images/hrmContent/new_020.jpg height=20></TD>
+    <TD width=15><IMG src="/statics/images/hrmContent/new_021.jpg" 
+  border=0></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="98%" border=0>
+  <TBODY>
+  <TR>
+    <TD width=15 background=/statics/images/hrmContent/new_022.jpg><IMG 
+      src="/statics/images/hrmContent/new_022.jpg" border=0> </TD>
+    <TD vAlign=top width="100%" bgColor=#ffffff>
+      <TABLE cellSpacing=0 cellPadding=5 width="100%" border=0>
+        <TR>
+          <TD class=manageHead>当前位置：用户管理 &gt; 查询用户</TD></TR>
+        <TR>
+          <TD height=2></TD></TR></TABLE>
+      <TABLE borderColor=#cccccc cellSpacing=0 cellPadding=0 width="100%" align=center border=0>
+        <TBODY>
+        <TR>
+          <TD height=25>
+            <TABLE cellSpacing=0 cellPadding=2 border=0>
+              <TBODY>
+              <TR>
+                <TD>筛选数据：</TD>
+                <td>姓 名</td>
+                <td>
+                	<input class=textbox id="userName" type="text" name="userName" style="width: 80px"/> 
+                </td>
+                <TD>
+                	<SELECT id=userJob name=userJob> 
+                		<OPTION value="0" selected>全部职位</OPTION> 
+                    	<OPTION value="1">职位1</OPTION> 
+                    	<OPTION value="2">职位2</OPTION> 
+                    	<OPTION value="3">职位3</OPTION> 
+                    </SELECT>
+                </TD>
+<!--                 <TD> -->
+<!--                  	<SELECT id=sFlag name=sFlag>  -->
+<!-- 	                  <OPTION value=0 selected>全部角色</OPTION>  -->
+<!-- 	                  <OPTION value=1>超级管理员</OPTION>  -->
+<!-- 	                  <OPTION value=2>管理员</OPTION>  -->
+<!-- 	                  <OPTION value=3>普通用户</OPTION> -->
+<!--                   	</SELECT> -->
+<!--                 </TD> -->
+                <TD>
+                 	<SELECT id="gender" name="gender"> 
+	                  <OPTION value=0 selected>全部性别</OPTION> 
+	                  <OPTION value=1>男</OPTION> 
+	                  <OPTION value=2>女</OPTION> 
+                  	</SELECT>
+                </TD>
+                <td>
+                	入职日期
+                </td>
+                <TD>
+                	<INPUT class=textbox id="startDate" style="WIDTH: 70px" name="startDate" placeholder="开始日期">
+                </TD>
+                <td>--</td>
+                <TD>
+                	<INPUT class=textbox id="endDate" style="WIDTH: 70px" name="endDate" placeholder="截止日期"/>
+                </TD>
+                <TD>
+                	<INPUT class=button id=sButton2 type=submit value=" 筛选 " name=sButton2>
+                </TD>
+              </TR>
+             </TBODY>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD>
+            <TABLE id=grid 
+            style="BORDER-TOP-WIDTH: 0px; FONT-WEIGHT: normal; BORDER-LEFT-WIDTH: 0px; BORDER-LEFT-COLOR: #cccccc; BORDER-BOTTOM-WIDTH: 0px; BORDER-BOTTOM-COLOR: #cccccc; WIDTH: 100%; BORDER-TOP-COLOR: #cccccc; FONT-STYLE: normal; BACKGROUND-COLOR: #cccccc; BORDER-RIGHT-WIDTH: 0px; TEXT-DECORATION: none; BORDER-RIGHT-COLOR: #cccccc" 
+            cellSpacing=1 cellPadding=2 rules=all border=0>
+              <thead id=""></thead>
+              <TBODY id="tbody">
+<!--               <TR style="FONT-WEIGHT: bold; FONT-STYLE: normal; BACKGROUND-COLOR: #eeeeee; TEXT-DECORATION: none"> -->
+<!--                 <TD>姓 名</TD> -->
+<!--                 <TD>昵 称</TD> -->
+<!--                 <TD>职 位</TD> -->
+<!--                 <TD>性 别</TD> -->
+<!--                 <TD>入职日期</TD> -->
+<!--                 <TD>出生日期</TD> -->
+<!--                 <TD>详 细</TD> -->
+<!--                </TR> -->
+<!--               <TR style="FONT-WEIGHT: normal; FONT-STYLE: normal; BACKGROUND-COLOR: white; TEXT-DECORATION: none"> -->
+<!--                 <TD>longlikai1</TD> -->
+<!--                 <TD><A href="#" target=_blank>金币网</A></TD> -->
+<!--                 <TD><IMG alt=申请通过 src="/statics/images/hrmContent/start.gif"  -->
+<!--                   border=0> </TD> -->
+<!--                 <TD>惠普基地</TD> -->
+<!--                 <TD>2008-12-18 15:48:36</TD> -->
+<!--                 <TD><A  -->
+<!--                   href="#">查看</A>  -->
+<!--                 </TD> -->
+<!--                 <TD><INPUT id=setlist onClick="check(this,'boxListValue');" type=checkbox value=65 name=setlist>  -->
+<!--                 </TD> -->
+<!--               </TR> -->
+<!--               <TR style="FONT-WEIGHT: normal; FONT-STYLE: normal; BACKGROUND-COLOR: white; TEXT-DECORATION: none"> -->
+<!--                 <TD>longlikai1</TD> -->
+<!--                 <TD><A href="#" target=_blank>金币网</A></TD> -->
+<!--                 <TD><IMG alt=申请通过 src="/statics/images/hrmContent/start.gif" border=0>  -->
+<!--                 </TD> -->
+<!--                 <TD>纽曼网上商城</TD> -->
+<!--                 <TD>2008-12-18 15:28:41</TD> -->
+<!--                 <TD><A href="#">查看</A>  -->
+<!--                 </TD> -->
+<!--                 <TD><INPUT id=setlist onClick="check(this,'boxListValue');"  -->
+<!--                   type=checkbox value=64 name=setlist> </TD></TR> -->
+<!--               <TR style="FONT-WEIGHT: normal; FONT-STYLE: normal; BACKGROUND-COLOR: white; TEXT-DECORATION: none"> -->
+<!--                 <TD>dama2003</TD> -->
+<!--                 <TD><A href="#" target=_blank>网狐科技</A></TD> -->
+<!--                 <TD><IMG alt=申请通过 src="/statics/images/hrmContent/start.gif"  -->
+<!--                   border=0> </TD> -->
+<!--                 <TD>联想在线</TD> -->
+<!--                 <TD>2008-12-17 19:09:16</TD> -->
+<!--                 <TD><A href="#">查看</A>  -->
+<!--                 </TD> -->
+<!--                 <TD><INPUT id=setlist onClick="check(this,'boxListValue');"  -->
+<!--                   type=checkbox value=62 name=setlist> -->
+<!--                 </TD> -->
+<!--                </TR> -->
+              </TBODY>
+             </TABLE>
+            </TD>
+           </TR>
+        <TR>
+          <TD><SPAN id=pagelink>
+            <DIV 
+            style="LINE-HEIGHT: 20px; HEIGHT: 20px; TEXT-ALIGN: right">[<B>84</B>]条记录 
+            [6]页 当前是[46-60]条 [<A 
+            href="#">前一页</A>] 
+            <A class="" 
+            href="#">1</A> 
+            <A class="" 
+            href="#">2</A> 
+            <A class="" 
+            href="#">3</A> 
+            <B>4</B> <A class="" 
+            href="#">5</A> 
+            <A class="" 
+            href="#">6</A> 
+            [<A class="" 
+            href="#">后一页</A>] 
+            <SELECT><OPTION 
+              value=1>第1页</OPTION><OPTION value=2>第2页</OPTION><OPTION 
+              value=3>第3页</OPTION><OPTION value=4 selected>第4页</OPTION><OPTION 
+              value=5>第5页</OPTION><OPTION 
+            value=6>第6页</OPTION></SELECT></DIV></SPAN></TD></TR></TBODY></TABLE></TD>
+    <TD width=15 background=/statics/images/hrmContent/new_023.jpg><IMG 
+      src="/statics/images/hrmContent/new_023.jpg" border=0> </TD></TR></TBODY></TABLE>
+		<TABLE cellSpacing=0 cellPadding=0 width="98%" border=0>
+		  <TBODY>
+		 	<TR>
+		    	<TD width=15><IMG src="/statics/images/hrmContent/new_024.jpg" border=0></TD>
+		    	<TD align=middle width="100%" background=/statics/images/hrmContent/new_025.jpg height=15></TD>
+		    	<TD width=15><IMG src="/statics/images/hrmContent/new_026.jpg" border=0></TD>
+		    </TR>
+		   </TBODY>
+		</TABLE>
+	</FORM>
+  </BODY>
+</HTML>

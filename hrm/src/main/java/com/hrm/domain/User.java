@@ -4,20 +4,23 @@
  */
 package com.hrm.domain;
 
+import java.util.Date;
+
 /**
  * 描述：用户的领域模型
- * @author tsingsoft
+ * @author wqk
  * @since 2019年9月8日 上午1:17:44
  * @version   
  * @see 
  */
 public class User {
 	
+	private Integer id;
 	private String loginName;
 	private String password;
 	private String userName;
-	private String phone;
-	private String address;
+	private Integer status;
+	private Date createDate;
 	public User() {}
 	
 	public User(String loginName,String password,String userName) {
@@ -67,33 +70,59 @@ public class User {
 	public void setUserName(String userName) {
 		this.userName = userName;
 	}
+
 	/**
 	 * @描述：
-	 * @return the phone
+	 * @return the status
 	 */
-	public String getPhone() {
-		return phone;
+	public Integer getStatus() {
+		return status;
 	}
+
 	/**
 	 * @描述：
-	 * @param phone the phone to set
+	 * @param status the status to set
 	 */
-	public void setPhone(String phone) {
-		this.phone = phone;
+	public void setStatus(Integer status) {
+		this.status = status;
 	}
+
 	/**
 	 * @描述：
-	 * @return the address
+	 * @return the createDate
 	 */
-	public String getAddress() {
-		return address;
+	public Date getCreateDate() {
+		return createDate;
 	}
+
 	/**
 	 * @描述：
-	 * @param address the address to set
+	 * @param createDate the createDate to set
 	 */
-	public void setAddress(String address) {
-		this.address = address;
+	public void setCreateDate(Date createDate) {
+		this.createDate = createDate;
+	}
+
+	/**
+	 * @描述：
+	 * @return the id
+	 */
+	public Integer getId() {
+		return id;
+	}
+
+	/**
+	 * @描述：
+	 * @param id the id to set
+	 */
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	@Override
+	public String toString() {
+		return "User [loginName=" + loginName + ", password=" + password + ", userName=" + userName + ", status="
+				+ status + ", createDate=" + createDate + "]";
 	}
 	
 }

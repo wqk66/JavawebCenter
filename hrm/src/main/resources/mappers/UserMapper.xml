@@ -17,7 +17,7 @@
 
 	<select id="findWithLoginNameAndPassword" parameterType="user"
 		resultType="user">
-		select * from tb_user where loginname=#{loginName} and
+		select * from user_info where loginname=#{loginName} and
 		password=#{password}
 	</select>
 	<update id="modifyUser" parameterType="user">

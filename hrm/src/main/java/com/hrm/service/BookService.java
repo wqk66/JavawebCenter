@@ -6,6 +6,7 @@ package com.hrm.service;
 
 import java.util.List;
 
+import com.github.pagehelper.PageInfo;
 import com.hrm.domain.Book;
 
 /**
@@ -18,4 +19,5 @@ import com.hrm.domain.Book;
 public interface BookService {
 
 	List<Book> getAll();
+	PageInfo<Book> selectAll(Integer page,Integer size);
 }

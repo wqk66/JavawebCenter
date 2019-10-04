@@ -1,11 +1,6 @@
-<%@ page language="Java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%
-String path = request.getContextPath();
-String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
-%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
-<head>
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
 <script type="text/javascript" src="/statics/js/jquery-3.3.1.min.js" ></script>
 <STYLE type=text/css>BODY {
 	FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: 宋体
@@ -14,11 +9,13 @@ TD {
 	FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: 宋体
 }
 </STYLE>
+
+<META content="MSHTML 6.00.6000.16809" name=GENERATOR>
 <SCRIPT src="/statics/images/WebResource.axd" type=text/javascript></SCRIPT>
 <SCRIPT src="/statics/images/WebResource_2.axd" type=text/javascript></SCRIPT>
 <SCRIPT src="/statics/images/ScriptResource.axd" type=text/javascript></SCRIPT>
 <SCRIPT src="/statics/images/ScriptResource_2.axd" type=text/javascript></SCRIPT>
-<SCRIPT type="text/javascript"> 
+<SCRIPT language=JavaScript> 
 // var speed=20;
 // var temp=new Array(); 
 // var clipright=document.body.clientWidth/2,clipleft=0 
@@ -38,23 +35,27 @@ TD {
 // } 
 // tim=setInterval("openit()",100);
 	
-// 	$(function(){
-// 		$("#loginBtn121").click(function(){
-// 			alert(111);
-// 			$.ajax(function(){
-// 				type:"post",
-// 				url:"loginHrm",
-// 				dataType:"json",
-// 				success:function(data){
-// 					alert(data);
-// 				}
-// 			});
-// 		});
-// 	});
+	$(function(){
+		$("#loginBtn11").click(function(){
+			alert(111);
+			$.ajax(function(){
+				type:"post",
+				url:"/loginHrm"
+				dataType:"json",
+				success:function(data){
+					alert(data);
+				}
+			});
+		});
+
+		
+		
+	});
 	
+   
 </SCRIPT>
-</head>
-<body>
+</HEAD>
+<BODY>
 <DIV id=div1 
 style="LEFT: 0px; POSITION: absolute; TOP: 0px; BACKGROUND-COLOR: #0066ff"></DIV>
 <DIV id=div2 
@@ -77,7 +78,7 @@ style="LEFT: 0px; POSITION: absolute; TOP: 0px; BACKGROUND-COLOR: #0066ff"></DIV
             <TABLE cellSpacing=0 cellPadding=2 border=0>
             <tr style="color:red">
                  <TD style="HEIGHT: 15px;width: 60px" colspan="2"><div id=RequiredFieldValidator1 
-                 	style="FONT-WEIGHT: bold;  COLOR: red"><%=request.getParameter("msg")==null?"":request.getParameter("msg") %></div>
+                 	style="FONT-WEIGHT: bold;  COLOR: red">1111</div>
                  </TD>
               </tr>
               <TBODY>
@@ -101,18 +102,16 @@ style="LEFT: 0px; POSITION: absolute; TOP: 0px; BACKGROUND-COLOR: #0066ff"></DIV
                 <TD style="HEIGHT: 35px;"><INPUT id=testCode 
                   style="WIDTH: 130px;height: 25" name=checkCode></TD>
                 <TD style="HEIGHT: px;width: 10px;cursor: hand;">
-                	<img id="generateCode" src="/code/generateCode" onclick="this.src='/code/generateCode'">
+                	<img id="generateCode" alt="aaa" src="/code/generateCode" onclick="this.src='/code/generateCode'">
                	</TD>
                	</TR>
                	<tr><td></td></tr>
               <TR>
-                <TD colspan="3"><INPUT id=loginBtn 
-                  style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px;margin-left: 70px" 
+                <TD colspan="2"><INPUT id=loginBtn 
+                  style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px;left: 30" 
                   type=image src="/statics/images/login_button.gif"  name=loginBtn> 
               </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
-  <TR><TD><IMG src="/statics/images/login_3.jpg" 
+  <TR>
+    <TD><IMG src="/statics/images/login_3.jpg" 
 border=0></TD></TR></TBODY></TABLE>
-</FORM>
-
-</body>
-</html>
+</FORM></BODY></HTML>

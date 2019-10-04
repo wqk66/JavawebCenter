@@ -9,6 +9,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.hrm.domain.Book;
 import com.hrm.mapper.BookMapper;
 import com.hrm.service.BookService;
@@ -28,8 +30,19 @@ public class BookServiceImpl implements BookService {
 	
 	@Override
 	public List<Book> getAll() {
-		
 		return bookMapper.findAll();
+	}
+
+	/**
+	 * @param page 当前页页码，即第几页
+	 * @param size 当前页数据条数
+	 */
+	@Override
+	public PageInfo<Book> selectAll(Integer page, Integer size) {
+		PageHelper.startPage(page, size);
+		List<Book> bookList = bookMapper.findAll();
+		PageInfo<Book> pageInfo = new PageInfo<Book>(bookList);
+		return pageInfo;
 	}
 	
 }
