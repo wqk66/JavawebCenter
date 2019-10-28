@@ -43,7 +43,7 @@ public interface UserService {
 	 * @return: int
 	 * @see
 	 */
-	int insertUser(User user);
+	boolean insertUser(User user);
 	
 	List<User> selectAllUser();
 	PageInfo<User> selectAll(Integer page,Integer size);

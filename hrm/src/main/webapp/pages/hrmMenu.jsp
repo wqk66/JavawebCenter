@@ -78,7 +78,7 @@ A.active {
 </STYLE>
 <SCRIPT language=javascript>
 	function MenuDisplay(obj) {
-		for (var i = 1; i <= 7; i++) {
+		for (var i = 1; i <= 6; i++) {
 			document.getElementById('table_' + i).style.display = 'none';
 			document.getElementById('table_' + i + 'Span').innerText = '＋';
 		}
@@ -246,11 +246,11 @@ A.active {
 											cellPadding=2 width=155 align=center border=0>
 											<TBODY>
 												<TR>
-													<TD class=menuSmall><A class=style2 href="#"
+													<TD class=menuSmall><A class=style2 href="/document/showDocument"
 														target=dmMain>－ 文档查询</A></TD>
 												</TR>
 												<TR>
-													<TD class=menuSmall><A class=style2 href="#"
+													<TD class=menuSmall><A class=style2 href="/document/fileuploadForm"
 														target=dmMain>－ 上传文档</A></TD>
 												</TR>
 											</TBODY>
@@ -260,35 +260,35 @@ A.active {
 								<TR>
 									<TD background=/statics/images/hrmMenu/new_027.jpg height=1></TD>
 								</TR>
-								<TR>
-									<TD class=mainMenu onClick="MenuDisplay('table_7');"><SPAN
-										class=span id=table_7Span>＋</SPAN> 帮助中心</TD>
-								</TR>
-								<TR>
-									<TD>
-										<TABLE id=table_7 style="DISPLAY: none" cellSpacing=0
-											cellPadding=2 width=155 align=center border=0>
-											<TBODY>
-												<TR>
-													<TD class=menuSmall><A class=style2 href="#"
-														target=dmMain>－ 新增渠道商帮助</A></TD>
-												</TR>
-												<TR>
-													<TD class=menuSmall><A class=style2 href="#"
-														target=dmMain>－ 渠道商帮助管理</A></TD>
-												</TR>
-												<TR>
-													<TD class=menuSmall><A class=style2 href="#"
-														target=dmMain>－ 新增广告商帮助</A></TD>
-												</TR>
-												<TR>
-													<TD class=menuSmall><A class=style2 href="#"
-														target=dmMain>－ 广告商帮助管理</A></TD>
-												</TR>
-											</TBODY>
-										</TABLE>
-									</TD>
-								</TR>
+<!-- 								<TR> -->
+<!-- 									<TD class=mainMenu onClick="MenuDisplay('table_7');"><SPAN -->
+<!-- 										class=span id=table_7Span>＋</SPAN> 帮助中心</TD> -->
+<!-- 								</TR> -->
+<!-- 								<TR> -->
+<!-- 									<TD> -->
+<!-- 										<TABLE id=table_7 style="DISPLAY: none" cellSpacing=0 -->
+<!-- 											cellPadding=2 width=155 align=center border=0> -->
+<!-- 											<TBODY> -->
+<!-- 												<TR> -->
+<!-- 													<TD class=menuSmall><A class=style2 href="#" -->
+<!-- 														target=dmMain>－ 新增渠道商帮助</A></TD> -->
+<!-- 												</TR> -->
+<!-- 												<TR> -->
+<!-- 													<TD class=menuSmall><A class=style2 href="#" -->
+<!-- 														target=dmMain>－ 渠道商帮助管理</A></TD> -->
+<!-- 												</TR> -->
+<!-- 												<TR> -->
+<!-- 													<TD class=menuSmall><A class=style2 href="#" -->
+<!-- 														target=dmMain>－ 新增广告商帮助</A></TD> -->
+<!-- 												</TR> -->
+<!-- 												<TR> -->
+<!-- 													<TD class=menuSmall><A class=style2 href="#" -->
+<!-- 														target=dmMain>－ 广告商帮助管理</A></TD> -->
+<!-- 												</TR> -->
+<!-- 											</TBODY> -->
+<!-- 										</TABLE> -->
+<!-- 									</TD> -->
+<!-- 								</TR> -->
 							</TBODY>
 						</TABLE>
 					</TD>

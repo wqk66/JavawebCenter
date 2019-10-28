@@ -69,8 +69,8 @@ public class UserServiceImpl implements UserService {
 	 * @return: int
 	 * @see
 	 */
-	public int insertUser(User user) {
-		return userMapper.save(user);
+	public boolean insertUser(User user) {
+		return userMapper.save(user) > 0;
 	}
 
 	/**

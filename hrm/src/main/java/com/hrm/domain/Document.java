@@ -6,6 +6,7 @@ package com.hrm.domain;
 
 import java.util.Date;
 
+import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.multipart.MultipartFile;
 
 /**
@@ -22,7 +23,24 @@ public class Document {
 	private String fileName;//文件名
 	private MultipartFile file;//文件
 	private String remark;//描述
+	@DateTimeFormat(pattern = "yyyy-MM-dd")
 	private Date createDate;//上传时间
+	private Integer userId;
+	private String userName;
+	/**
+	 * @描述：
+	 * @return the userId
+	 */
+	public Integer getUserId() {
+		return userId;
+	}
+	/**
+	 * @描述：
+	 * @param userId the userId to set
+	 */
+	public void setUserId(Integer userId) {
+		this.userId = userId;
+	}
 	/**
 	 * @描述：
 	 * @return the id
@@ -106,6 +124,20 @@ public class Document {
 	 */
 	public void setCreateDate(Date createDate) {
 		this.createDate = createDate;
+	}
+	/**
+	 * @描述：
+	 * @return the userName
+	 */
+	public String getUserName() {
+		return userName;
+	}
+	/**
+	 * @描述：
+	 * @param userName the userName to set
+	 */
+	public void setUserName(String userName) {
+		this.userName = userName;
 	}
 	@Override
 	public String toString() {

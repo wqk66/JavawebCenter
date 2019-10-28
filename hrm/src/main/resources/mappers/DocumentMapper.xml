@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hrm.mapper.DocumentMapper">
+<!-- 	保存文档信息 -->
+	<insert id="saveDoucment" parameterType="Document" useGeneratedKeys="true">
+		insert into document_info (title,remark,createDate,filename,user_id,userName) values(#{title},#{remark},#{createDate},#{fileName},#{userId},#{userName})
+	</insert>
+
+</mapper>

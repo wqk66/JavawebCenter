@@ -4,14 +4,17 @@
  */
 package com.hrm.controller;
 
+import java.io.IOException;
+
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -22,6 +25,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.github.pagehelper.PageInfo;
 import com.hrm.domain.User;
 import com.hrm.service.UserService;
+import com.hrm.utils.JSONUtil;
 
 /**
  * 描述：用户前端控制器
@@ -111,7 +115,7 @@ public class UserController {
 	 */
 	@RequestMapping("/selelctUserByPage")
 	public String selectUserByPage(Model model, @RequestParam(defaultValue = "1") Integer page,
-			@RequestParam(defaultValue = "1") Integer size,HttpServletRequest request) {
+			@RequestParam(defaultValue = "10") Integer size,HttpServletRequest request) {
 
 		String num = request.getParameter("pageNum");
 		if (num != null) {
@@ -155,4 +159,28 @@ public class UserController {
 		return "hrmAddUserContent";
 	}
 	
+	/**
+	 * 
+	 * <p>功能描述: 添加用户映射</p>  
+	 * @param model
+	 * @param user
+	 * @return
+	 * @author: wqk   
+	 * @date: 2019年10月5日 下午5:09:20
+	 * @return: String
+	 * @throws IOException 
+	 * @see
+	 */
+	@PostMapping("/addUser")
+	public void insertUser(HttpServletResponse response,User user) throws IOException {
+		
+		boolean bFlag = userService.insertUser(user);
+		String returnData = null;
+		if(bFlag) {
+			returnData = JSONUtil.createSuccJson();
+		}else {
+			returnData = JSONUtil.createFailJson();
+		}
+		JSONUtil.send(response, returnData);
+	}
 }
