@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 命名空间，唯一标志 -->
+<mapper namespace="com.mybatistest.mapper.DepartmentMapper">
+	
+<!-- 	定义结果集，column表示sql查询列，property表示映射到实体的对象 -->
+	<resultMap type="com.mybatistest.domain.Department" id="departmentResultMap">
+		<id column="id" property="id"/>
+		<result column="department_name" property="departmentName"/>
+		
+		<collection property="employees" javaType="List" ofType="com.mybatistest.domain.Employee" fetchType="lazy">
+			<id column="empId" property="id"/>
+			<result column="last_name" property="lastName"/>
+			<result column="gender" property="gender"/>
+			<result column="email" property="email"/>
+			
+		</collection>
+	</resultMap>
+	<select id="getdeptById" parameterType="int" resultMap="departmentResultMap">
+		select a.id,a.department_name,b.last_name,b.gender,b.email,b.id as empId
+		 from tbl_department a,tbl_employee b where a.id = b.dept_id and a.id = #{id}
+	</select>
+</mapper>

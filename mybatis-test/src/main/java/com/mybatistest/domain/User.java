@@ -4,6 +4,8 @@
  */
 package com.mybatistest.domain;
 
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+
 /**
  * 描述：
  * @author wqk

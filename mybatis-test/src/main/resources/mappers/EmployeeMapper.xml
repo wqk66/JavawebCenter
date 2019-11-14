@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 命名空间，唯一标志 -->
+<mapper namespace="com.mybatistest.mapper.EmployeeMapper">
+	
+<!-- 	定义结果集，column表示sql查询列，property表示映射到实体的对象 -->
+	<resultMap type="com.mybatistest.domain.Employee" id="employeeResultMap">
+		<id column="id" property="id"/>
+		<result column="last_name" property="lastName"/>
+		<result column="gender" property="gender"/>
+		<result column="email" property="email"/>
+<!-- 		关联对象 -->
+		<association property="department" javaType="com.mybatistest.domain.Department">
+<!-- 			关联条件，Employee的depart_id对应Department的id -->
+			<id column="id" property="id"/>
+			<result column="department_name" property="departmentName"/>
+		</association>
+	</resultMap>
+	
+	<select id="getEmpAndDeptById" resultMap="employeeResultMap" parameterType="int" >
+		select e.id,e.last_name,e.gender,e.email,e.dept_id,d.id,d.department_name
+	     from tbl_employee e,tbl_department d
+	     where e.dept_id = d.id and e.id=#{id}
+	</select>
+	<select id="getDepartById" parameterType="int" resultType="list">
+		select * from tbl_department where id = #{id}
+	</select>
+</mapper>
